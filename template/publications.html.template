@@ -24,22 +24,21 @@
 
 <div id="content" style="text-align: justify;">
 
+<h1>Publications</h1>
+
+<ul>
+  <li>To appear.</li>
+</ul>
+
+  
     
-<h1>Contact</h1>
-
-<h2>French Team Leader</h2>
-<p>
-Name: Cedric Adjih, Inria Saclay, Team <a href="https://team.inria.fr/tribe">TRiBE</a>.<br>
-Email: cedric.adjih__AT__inria.fr
-</p>
-
-<h2>Indian Team Leader</h2>
+<h1>Related Work</h1>
 
 
-Name: Dr. Sanjeev Sharma<br>
-Assistant Professor<br>
-Department of Electronics Engineering <a href="https://www.iitbhu.ac.in/">IIT(BHU), Varanasi</a><br>
-Email: <a href="https://www.iitbhu.ac.in/dept/ece/people/sanjeevece">(see homepage)</a>
+<ul>
+  <li>S. Sharma, K. Deka, <em>"Sparse code and hybrid multiple access techniques"</em>, book chapter in <em>"5G and Beyond Wireless Systems"</em>, 2021 - Springer</li>
+  <li>A. Kumar, P. Hegde, R. Vaze, A. Alloum, C. Adjih, <em>Breaking the Unit Throughput Barrier in Distributed System</em>, accepted at <a href="https://event.iitg.ac.in/ncc2023/">NCC 2023</a>, Guwahati, Feb. 2023.</li>
+</ul>
 
 
 </div>

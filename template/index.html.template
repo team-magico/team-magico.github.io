@@ -6,7 +6,7 @@
   <meta name="keywords" content="your,keywords,goes,here" />
   <meta name="author" content="C. Adjih" />
   <link rel="stylesheet" type="text/css" href="andreas00.css" media="screen,projection" />
-  <title>Inria Associated Team MAGICO</title>
+  <title>Inria International Team MAGICO</title>
 </head>
 
 <body>
@@ -25,17 +25,33 @@
 <div id="content" style="text-align: justify;">
 
     
-<h1>Inria Associated Team MAGICO</h1>
+<h1>Inria International Team MAGICO</h1>
+
+<p>
+The Inria International Team MAGICO (<b>Ma</b>chine-Learning Enabled Next-<b>G</b>eneration <b>I</b>oT <b>Co</b>mmunications) is a composed of members of the TRiBE Inria Team-Project (France), of the IIT(BHU) Varanasi (India), and of the IIT Guwahati (Inria).
+</p>
+
+<p>
+  </p>
+
+<p>
+The main objectives of this team are to design and develop the working prototype for a
+machine-learning-enabled system for IoT communications. <!--International collaboration, and
+generating skilled manpower, will also be developed along with the technical contributions.-->
+Objectives of this project are highlighted below:
+<ul>
+  <li>To devise code-domain non-orthogonal slotted ALOHA for random access.</li>
+  <li>To design efficient sensing algorithms based on machine learning, compressive sensing, and group testing independently.</li>
+  <li>Demonstration of the proposed algorithms in IoT simulator (or hardware)</li>  
+  <li>To design and develop workable field-tested prototypes for machine learning-enabled IoT communication.</li>
+</ul>
+</p>
 
 </div>
 
 <!-- ================================================== -->
 
-<div id="footer">
-  <p><span>&copy; 2022 <a href="#">Partners of project</a></span><br />
-    <!-- img src="img/logo-inria.png" height="40" width="100" class="center" alt="Example content image" / -->
-    <span style="font-size: 10%;"> <a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a> | Modified by <a href="http://Jasoncole.ca">Jason Cole</a> | Modified by <a href="http://fr.viadeo.com/fr/profile/hana.baccouch">Hana Baccouch</a> and C. Adjih </span></p>
-</div>
+<@FOOTER@>
 
 </div>
 </body>

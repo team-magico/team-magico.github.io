@@ -6,7 +6,7 @@
   <meta name="keywords" content="your,keywords,goes,here" />
   <meta name="author" content="C. Adjih" />
   <link rel="stylesheet" type="text/css" href="andreas00.css" media="screen,projection" />
-  <title>Inria Associated Team MAGICO</title>
+  <title>Inria International Team MAGICO</title>
 </head>
 
 <body>
@@ -25,17 +25,27 @@
 <div id="content" style="text-align: justify;">
 
     
-<h1>Partners of the Associated Team MAGICO</h1>
+<h1>Partners of MAGICO</h1>
+
+
+The list of participants includes on the French side:
+<ul>
+  <li><a href="https://cv.archives-ouvertes.fr/cedric-adjih">Cédric Adjih</a> (PI French Side), Inria Project-Team TRiBE, permanent researcher.</li>
+  <li>Philippe Jacquet, Inria Project-Team TRiBE, senior researcher.</li>
+</ul>
+
+For the main partner Indian institution, and the satellite India team:
+<ul>  
+<li><a href="https://www.iitbhu.ac.in/dept/ece/people/sanjeevece">Sanjeev Sharma</a> (PI, Indian Side), IIT (BHU) Varanasi, Assistant Professor.</li>
+
+<li>Kuntal Deka, IIT Guwahati. Assistant Professor.</li>
+</ul>
 
 </div>
 
 <!-- ================================================== -->
 
-<div id="footer">
-  <p><span>&copy; 2022 <a href="#">Partners of project</a></span><br />
-    <!-- img src="img/logo-inria.png" height="40" width="100" class="center" alt="Example content image" / -->
-    <span style="font-size: 10%;"> <a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a> | Modified by <a href="http://Jasoncole.ca">Jason Cole</a> | Modified by <a href="http://fr.viadeo.com/fr/profile/hana.baccouch">Hana Baccouch</a> and C. Adjih </span></p>
-</div>
+<@FOOTER@>
 
 </div>
 </body>

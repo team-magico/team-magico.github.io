@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Inria Associated Team MAGICO" />
+  <meta name="keywords" content="your,keywords,goes,here" />
+  <meta name="author" content="C. Adjih" />
+  <link rel="stylesheet" type="text/css" href="andreas00.css" media="screen,projection" />
+  <title>Inria Associated Team MAGICO</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <font color=#FAFAFA >	<h1></h1>
+      <p><b><h2></h2></b></p>
+    </font> 
+  </div>
+  <@MENU@>
+
+
+
+<!-- ================================================== -->
+
+<div id="content" style="text-align: justify;">
+
+    
+<h1>Contact</h1>
+
+<h2>French Team Leader</h2>
+<p>Name: Cedric Adjih, Inria Saclay, Team TRiBE.</p>
+</p>Email: cedric.adjih__AT__inria.fr</p>
+
+<h2>Indian Team Leader</h2>
+
+</div>
+
+<!-- ================================================== -->
+
+<div id="footer">
+  <p><span>&copy; 2022 <a href="#">Partners of project</a></span><br />
+    <!-- img src="img/logo-inria.png" height="40" width="100" class="center" alt="Example content image" / -->
+    <span style="font-size: 10%;"> <a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a> | Modified by <a href="http://Jasoncole.ca">Jason Cole</a> | Modified by <a href="http://fr.viadeo.com/fr/profile/hana.baccouch">Hana Baccouch</a> and C. Adjih </span></p>
+</div>
+
+</div>
+</body>
+</html>

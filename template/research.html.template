@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Inria Associated Team MAGICO" />
+  <meta name="keywords" content="your,keywords,goes,here" />
+  <meta name="author" content="C. Adjih" />
+  <link rel="stylesheet" type="text/css" href="andreas00.css" media="screen,projection" />
+  <title>Inria International Team MAGICO</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <font color=#FAFAFA >	<h1></h1>
+      <p><b><h2></h2></b></p>
+    </font> 
+  </div>
+  <@MENU@>
+
+
+
+<!-- ================================================== -->
+
+<div id="content" style="text-align: justify;">
+
+    
+<h1>Research Program</h1>
+
+
+<p>
+  The proposed Associated Team is focusing on modern communications for the Internet of Things (IoT), for 5G and beyond. Traditionally the wireless network systems have been designed in "layers" (e.g. OSI Layers). This is especially true for cellular communications, the main focus of this proposition. Designing next-generation communications for IoT requires revisiting this separation of layers, for some important use-cases, such as Industrial IoT and/or massive Machine Type Communications, and this will be the key of this project. We rely on the expertise of both teams. In addition, Machine Learning techniques are methods of prime interest to improve the performance of these communication methods.
+</p>
+<p>
+  Specifically, we will devise an architecture for IoT communications that is based on a mix of the principles of the methods "Irregular Repetition Slotted ALOHA" (IRSA), of the methods of type "Non-Orthogonal Multiple Access" (NOMA), in particular, Sparse-Code Multiple Access (SCMA) - their principles are similar, and each partner of the Associated Team has expertise in one, or several of these. We will provide novel, efficient, variants of these protocols.</p>
+<p>Another important contribution of the project will be the addition of "sensing" of the active devices, which is extremely important in IoT scenarios; it is well-known in non-cellular networks, but it is much less explored in cellular networks, as it was unnecessary for non-IoT communications. We intend to develop machine learning-based, compressive-sensing-based, and group-testing-based methods for sensing in SA. Furthermore, the pattern of transmission of the devices (the codewords of SCMA) can be designed and assigned to the users dynamically using deep-learning-based methods. Finally, the proposed algorithms and methods will be implemented and demonstrated in an IoT testbed.
+</p>
+
+</div>
+
+<!-- ================================================== -->
+
+<@FOOTER@>
+
+</div>
+</body>
+</html>

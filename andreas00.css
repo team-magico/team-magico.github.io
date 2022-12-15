@@ -4,7 +4,7 @@ For more information, see http://andreasviklund.com/templates/andreas00/
 */
 
 /* Main layout and header */
-body {background:url(./img/bg.gif) repeat-y top center #eaeaea; color:#3a3a3a; font:76% Verdana,Tahoma,Arial,sans-serif; line-height:1.4em; margin:0 auto; padding:0;}
+body {background:url(./img/bg.gif) repeat-y top center #eaeaea; color:#3a3a3a; font:100% Verdana,Tahoma,Arial,sans-serif; line-height:1.4em; margin:0 auto; padding:0;}
 #wrap {background:#fff; color:#303030; margin:0 auto; padding:1px 5px; width:980px;}
 #header {background:url(./img/image-header.jpg) no-repeat bottom left #fff; color:#505050; height:250px; margin:0 0 10px; padding:0;}
 #header h1 {font-size:2.5em; font-weight:400; letter-spacing:-2px; margin:0 0 15px 15px; padding:20px 0 0;}

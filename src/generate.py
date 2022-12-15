@@ -52,6 +52,7 @@ FOOTER = '''
 
 file_list = [
     ("index.html", "Home"),
+    ("research.html", "Research Program"),    
     ("partners.html", "Partners"),
     ("publications.html", "Publications"),    
     ("contact.html", "Contact")

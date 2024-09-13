@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6G Wireless Networks Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #0056b3;
+        }
+
+        .navbar-custom a {
+            color: white;
+        }
+
+        .header-logo img {
+            max-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-text {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #e2e6ea;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        .agenda, .speakers, .contact {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .full-width {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+        }
+
+        .date-location {
+            background-color: #0056b3;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .date-location .section-title {
+            font-size: 2rem;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .date-location p {
+            color: white;
+            line-height: 1.6;
+        }
+
+        .date-location a {
+            color: white;
+            text-decoration: none;
+        }
+        .date-location a:hover {
+            text-decoration: underline;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004080;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
+   <!-- Header Section with 5 Logos (3 on the left, 2 on the right) -->
+    <div class="container-fluid bg-light">
+        <div class="row align-items-center header">
+            <!-- Left Logos (3 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                 <div class="col-10">
+                        <img src="img/CEFPIRA.png" alt="CEFIPRA Logo" class="img-fluid mb-2">
+                    </div>
+                
+                 <div class="col-6">
+                        <img src="img/Ministry_of_Science_and_Technology_India.svg" alt="INIDA Ministry Logo" class="img-fluid mt-2">
+                    </div>
+                 <div class="col-6">
+                        <img src="img/MDEA.jpg" alt="French Ministry Logo" class="img-fluid mb-2">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Title and Subtitle -->
+            <div class="col-md-8 text-center header-text">
+                <p class="header-title">Indo-French Seminar </p>
+                
+                <p class="header-title">6G Wireless Networks: Challenges and Opportunities</p>
+                <p class="header-title"> October 9 - 11, 2024</p>
+                
+            </div>
+
+            <!-- Right Logos (2 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                   
+
+                     <div class="col-6">
+                        <img src="img/india2.png" alt="IIT (BHU) Varanasi logos " class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/indianLogo.png" alt="IIT Guwahati  Logo" class="img-fluid mb-2">
+                    </div>
+                      <div class="col-12">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mt-2">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Speaker.html">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <section id="about">
+            <h2 class="section-title">About the Workshop</h2>
+            
+<p>The Indo-French Seminar “6G Wireless Networks: Challenges and Opportunities” brings together cutting-edge advancements in wireless communication technologies, focusing on the future of 5G and 6G networks.
+</p>
+Funded by IFPCAR (CEFIPRA), it brings together 10 speakers originating from India and 10 speakers from France, in a program over 3 days, with the goal of initiating interactions among scientists and technologists of the two nations, and a number a participants.
+<p>
+This workshop brings together cutting-edge advancements in wireless communication technologies, focusing on the future of 5G and 6G networks. Participants will explore key innovations such as intelligent reflecting surfaces (IRS), multi-user and mmWave communications, advanced channel estimation, interference models, non-coherent communication, non-orthogonal multiple access, random access, and integrated sensing and communication. A number of French lab visits are also scheduled.
+</p>
+<p>The event will focus on cutting-edge developments, including intelligent reflecting surfaces (IRS) for enhancing network efficiency, reinforcement learning for optimizing network management, and the impact of extended reality (XR) and the metaverse on future networks. 
+Other topics will cover error-correcting codes, 5G performance analysis, and emerging technologies like delay-Doppler communication and quantum dots.</p>
+
+
+
+        </section>
+      <section id="date-location" class="date-location">
+          <h3 class="section-title">Date & Location</h3>
+          <p>The <strong>6G Wireless Networks Workshop</strong> will take place from <strong>October 9 to October 11, 2024</strong> at <strong>Inria Saclay Centre</strong>, 1 rue Honoré d’Estienne d’Orves, Bâtiment Alan Turing, Campus de l’École Polytechnique, 91120 Palaiseau.</p>
+          <p>For more information on how to get to the venue, please visit the <a href="https://www.inria.fr/en/centre-inria-saclay-ile-de-france" target="_blank"><strong>Inria Saclay Centre’s Map and Directions</strong></a> page.</p>
+      </section>
+
+      
+     
+
+</section>
+    </div>
+
+      <footer class="text-center mt-5">
+        <p>© 2024 6G Wireless Networks Workshop | Funded by CEFIPRA</p>
+    </footer>

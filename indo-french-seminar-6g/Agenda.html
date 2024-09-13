@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6G Wireless Networks Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #0056b3;
+        }
+
+        .navbar-custom a {
+            color: white;
+        }
+
+        .header-logo img {
+            max-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-text {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #e2e6ea;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #f3f6f4;
+            margin-bottom: 20px;
+            text-align: center;
+
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .day-section {
+            margin-bottom: 50px;
+            background-color: #f0f4f8; /* Light background color for each section */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .day-title {
+            font-size: 1.8rem;
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+
+        .agenda-calendar {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .agenda-calendar th,
+        .agenda-calendar td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .agenda-calendar th {
+            background-color: #004080; /* Dark blue background for the table headers */
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .agenda-calendar td {
+            background-color: #004080;
+            font-size: 1.1rem;
+        }
+
+        .agenda-calendar td:first-child {
+            width: 20%;
+            font-weight: bold;
+        }
+
+        .agenda-calendar td:last-child {
+            width: 80%;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004080;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
+   <!-- Header Section with 5 Logos (3 on the left, 2 on the right) -->
+    <div class="container-fluid bg-light">
+        <div class="row align-items-center header">
+            <!-- Left Logos (3 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                 <div class="col-10">
+                        <img src="img/CEFPIRA.png" alt="CEFIPRA Logo" class="img-fluid mb-2">
+                    </div>
+                
+                 <div class="col-6">
+                        <img src="img/Ministry_of_Science_and_Technology_India.svg" alt="INIDA Ministry Logo" class="img-fluid mt-2">
+                    </div>
+                 <div class="col-6">
+                        <img src="img/MDEA.jpg" alt="French Ministry Logo" class="img-fluid mb-2">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Title and Subtitle -->
+            <div class="col-md-8 text-center header-text">
+                <p class="header-title">Indo-French Seminar </p>
+                
+                <p class="header-title">6G Wireless Networks: Challenges and Opportunities</p>
+                <p class="header-title"> October 9 - 11, 2024</p>
+                
+            </div>
+
+            <!-- Right Logos (2 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                   
+
+                     <div class="col-6">
+                        <img src="img/india2.png" alt="IIT (BHU) Varanasi logos " class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/indianLogo.png" alt="IIT Guwahati  Logo" class="img-fluid mb-2">
+                    </div>
+                      <div class="col-12">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mt-2">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agenda">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Speaker.html">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Corrected_6G_Workshop_Program_Schedule_Linked.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        
+
+    
+
+
+</section>
+    </div>
+
+    <footer><body>
+
+
+
+      
+           <h2 class="section-title">Workshop Agenda</h2>
+
+           <!-- Wednesday, October 9, 2024 -->
+           <div class="day-section">
+               <h3 class="day-title">Wednesday, October 9, 2024</h3>
+               <table class="agenda-calendar">
+                   <tr>
+                       <th>Time</th>
+                       <th>Session</th>
+                   </tr>
+                   <tr>
+                       <td>09:00 - 09:30</td>
+                       <td>Arrival, Registration, Welcome Coffee</td>
+                   </tr>
+                   <tr>
+                       <td>09:30 - 10:50</td>
+                       <td>Opening Session<br>
+                           - Welcome and Opening Address (10 min)<br>
+                           - Nithin Seth (CEFIPRA Director) - Title TBD (20 min)<br>
+                           - Dimitri Ktenas (CEA): French Research on B5G (20 min)<br>
+                           - Vinod Kumar (WWRF): 6G Vision and Standardization on ITU (30 min)</td>
+                   </tr>
+                   <tr>
+                       <td>10:50 - 11:20</td>
+                       <td>Coffee Break</td>
+                   </tr>
+                   <tr>
+                       <td>11:20 - 12:50</td>
+                       <td>Session 1<br>
+                           - Philippe Jacquet (Inria, Saclay): The Energy Differentiated Field Theorem (30 min)<br>
+                           - A. Rajesh (IIT Guwahati): Error Correcting Codes for 5G NR (30 min)<br>
+                           - Siddhartha Suruj Borkotoki (IIT Bhubaneswar): Rateless Coding for IoT Networks (30 min)</td>
+                   </tr>
+                   <tr>
+                       <td>12:50 - 14:30</td>
+                       <td>Lunch</td>
+                   </tr>
+                   <tr>
+                       <td>14:30 - 15:30</td>
+                       <td>Session 2<br>
+                           - Maxime Guillaud (Inria, Lyon): Channel Charting - Self-Supervised Learning (30 min)<br>
+                           - Soumya Prakash Dash (IIT Bhubaneswar): Noncoherent Communications (30 min)</td>
+                   </tr>
+                   <tr>
+                       <td>15:30 - 15:50</td>
+                       <td>Coffee Break</td>
+                   </tr>
+                   <tr>
+                       <td>15:50 - 16:50</td>
+                       <td>Session 3<br>
+                           - Malcom Egan (Inria, Lyon): Interference Models or Random Access (30 min)<br>
+                           - Amritanshu Pandey (IIT BHU): Quantum Dots and Applications (30 min)</td>
+                   </tr>
+               </table>
+           </div>
+
+           <!-- Thursday, October 10, 2024 -->
+           <div class="day-section">
+               <h3 class="day-title">Thursday, October 10, 2024</h3>
+               <table class="agenda-calendar">
+                   <tr>
+                       <th>Time</th>
+                       <th>Session</th>
+                   </tr>
+                   <tr>
+                       <td>09:00 - 09:30</td>
+                       <td>Welcome Coffee</td>
+                   </tr>
+                   <tr>
+                       <td>09:30 - 10:30</td>
+                       <td>Session 4<br>
+                           - François Baccelli (Inria Paris, ENS): IRS and Non-Terrestrial Networks (1 hour)</td>
+                   </tr>
+                   <tr>
+                       <td>10:30 - 10:50</td>
+                       <td>Coffee Break</td>
+                   </tr>
+                   <tr>
+                       <td>10:50 - 12:20</td>
+                       <td>Session 5<br>
+                           - Neelesh B. Mehta (IISc Bangalore): Channel Estimation Techniques for IRS (1 hour)</td>
+                   </tr>
+                   <tr>
+                       <td>12:20 - 14:00</td>
+                       <td>Lunch</td>
+                   </tr>
+                   <tr>
+                       <td>14:00 - 15:00</td>
+                       <td>Session 6<br>
+                           - Sanjeev Sharma (IIT BHU): RIS-aided NOMA (30 min)<br>
+                           - Brijesh Kumbhani (IIT Ropar): IRS Training in Multi-User Scenario (30 min)</td>
+                   </tr>
+                   <tr>
+                       <td>15:00 - 15:20</td>
+                       <td>Coffee Break</td>
+                   </tr>
+                   <tr>
+                       <td>15:20 - 16:20</td>
+                       <td>Session 7<br>
+                           - Jean-Marie Gorce (Inria, Lyon): Learning-based Solutions to CSI (30 min)<br>
+                           - Kuntal Deka: Delay-Doppler Communication (30 min)</td>
+                   </tr>
+               </table>
+           </div>
+
+           <!-- Friday, October 11, 2024 -->
+           <div class="day-section">
+               <h3 class="day-title">Friday, October 11, 2024</h3>
+               <table class="agenda-calendar">
+                   <tr>
+                       <th>Time</th>
+                       <th>Session</th>
+                   </tr>
+                   <tr>
+                       <td>09:00 - 09:30</td>
+                       <td>Welcome Coffee</td>
+                   </tr>
+                   <tr>
+                       <td>09:30 - 11:00</td>
+                       <td>Session 8<br>
+                           - Marceau Coupechoux (TelecomParis): Reinforcement Learning for URLLC Scheduling (30 min)<br>
+                           - Naresh Modina (CNAM): Autonomous Reconfiguration with DRL (30 min)<br>
+                           - Cédric Adjih (Inria, Saclay): Modern Random Access and Deep RL (30 min)</td>
+                   </tr>
+                   <tr>
+                       <td>11:00 - 11:20</td>
+                       <td>Coffee Break</td>
+                   </tr>
+                   <tr>
+                       <td>11:20 - 13:00</td>
+                       <td>Session 9<br>
+                           - Manoj B. R.: Integrated Sensing and Communication (30 min)<br>
+                           - Amira Alloum (Qualcomm): XR Evolution to the Metaverse (30 min)<br>
+                           - Sarada Prasad Gochhayat (IIT Jammu): Broadband Wireless in mmWave for 5G (30 min)<br>
+                           - Workshop Conclusion and Final Address (10 min)</td>
+                   </tr>
+                   <tr>
+                       <td>13:00 - 14:30</td>
+                       <td>Lunch</td>
+                   </tr>
+                   <tr>
+                       <td>14:30 - 16:30</td>
+                       <td>Lab Visits <br>
+                           - Visit of Inria Saclay<br>
+                           - Aline Carneiro Viana: Visit of Team TRiBE, Inria Saclay<br>
+                           - Philippe Martins (Telecom Paris): Experimental Testbed Demo</td>
+                   </tr>
+               </table>
+           </div>
+       </section>
+
+    <footer class="text-center mt-5">
+        <p>© 2024 6G Wireless Networks Workshop | Funded by CEFIPRA</p>
+    </footer>
+</body>
+</html>

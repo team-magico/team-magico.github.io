@@ -1,0 +1,495 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6G Wireless Networks Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #0056b3;
+        }
+
+        .navbar-custom a {
+            color: white;
+        }
+
+        .header-logo img {
+            max-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-text {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #e2e6ea;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        .speakers-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+
+        }
+
+        .speakers-section .section-title {
+            font-size: 2.5rem;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 40px;;
+        }
+
+        .speakers-list {
+            list-style-type: none;
+            padding: 0;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .speakers-list li {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 40px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .speaker-info {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .speaker-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+
+        .speaker-details {
+            text-align: left;
+        }
+
+        .speaker-details strong {
+            font-size: 1.5rem;
+            color: #0056b3;
+        }
+
+        .speaker-details p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .speaker-details a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        .speaker-details a:hover {
+            text-decoration: underline;
+        }
+
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004080;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
+
+   <!-- Header Section with 5 Logos (3 on the left, 2 on the right) -->
+    <div class="container-fluid bg-light">
+        <div class="row align-items-center header">
+            <!-- Left Logos (3 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                 <div class="col-10">
+                        <img src="img/CEFPIRA.png" alt="CEFIPRA Logo" class="img-fluid mb-2">
+                    </div>
+                
+                 <div class="col-6">
+                        <img src="img/Ministry_of_Science_and_Technology_India.svg" alt="INIDA Ministry Logo" class="img-fluid mt-2">
+                    </div>
+                 <div class="col-6">
+                        <img src="img/MDEA.jpg" alt="French Ministry Logo" class="img-fluid mb-2">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Title and Subtitle -->
+            <div class="col-md-8 text-center header-text">
+                <p class="header-title">Indo-French Seminar </p>
+                
+                <p class="header-title">6G Wireless Networks: Challenges and Opportunities</p>
+                <p class="header-title"> October 9 - 11, 2024</p>
+                
+            </div>
+
+            <!-- Right Logos (2 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                   
+
+                     <div class="col-6">
+                        <img src="img/india2.png" alt="IIT (BHU) Varanasi logos " class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/indianLogo.png" alt="IIT Guwahati  Logo" class="img-fluid mb-2">
+                    </div>
+                      <div class="col-12">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mt-2">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+ 
+   <section id="speakers" class="speakers-section">
+    <div class="container">
+        <h3 class="section-title">Speakers & Topics</h3>
+
+        <div class="row">
+            <!-- Indian Speakers -->
+            <div class="col-md-6">
+                <h4>Indian Speakers</h4>
+                <ul class="speakers-list">
+                    <!-- Speaker 1 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/NeeleshMehta.jpg" alt="Dr. Neelesh Mehta" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Neelesh Mehta</strong>
+                                <p>Professor, IISc Bangalore</p>
+                                <p>Topic: Channel Estimation Techniques for Intelligent Reflecting Surfaces</p>
+                                <a href="https://eecs.iisc.ac.in/people/neelesh-b-mehta/" target="_blank">Personal Webpage</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 2 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/KuntalDeka.jpg" alt="Dr. Kuntal Deka" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Kuntal Deka</strong>
+                                <p>Assistant Professor, IIT Guwahati</p>
+                                <p>Topic: Fundamentals of Delay-Doppler Communication in Multi-user Scenario</p>
+                                <a href="https://www.iitg.ac.in/kuntaldeka/" target="_blank">Personal Webpage</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 3 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/SanjeevSharma.jpg" alt="Dr. Sanjeev Sharma" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Sanjeev Sharma</strong>
+                                <p>Assistant Professor, IIT BHU</p>
+                                <p>Topic: RIS-aided NOMA: Design and Analysis</p>
+                                <a href="https://iitbhu.ac.in/faculty/sanjeevsharma" target="_blank">Personal Webpage</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 4 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/AmritanshuPandey.jpg" alt="Dr. Amritanshu Pandey" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Amritanshu Pandey</strong>
+                                <p>Associate Professor, IIT BHU</p>
+                                <p>Topic: Overview of Quantum Dots and its Applications</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 5 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/ARajesh.jpg" alt="Dr. A. Rajesh" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. A. Rajesh</strong>
+                                <p>Associate Professor, IIT Guwahati</p>
+                                <p>Topic: Error Correcting Codes for 5G NR</p>
+                            </div>
+                        </div>
+                    </li>
+                  
+                    <!-- Continue Indian Speakers -->
+                    <!-- Speaker 6 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/SiddharthaSurujBorkotoki.jpg" alt="Dr. Siddhartha Suruj Borkotoki" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Siddhartha Suruj Borkotoki</strong>
+                                <p>Assistant Professor, IIT Bhubaneswar</p>
+                                <p>Topic: Rateless Coding for IoT Networks</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 7 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/SoumyaPrakashDash.jpg" alt="Dr. Soumya Prakash Dash" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Soumya Prakash Dash</strong>
+                                <p>Assistant Professor, IIT Bhubaneswar</p>
+                                <p>Topic: Noncoherent Communications for Next-Generation Wireless Systems</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 8 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/ManojBR.jpg" alt="Dr. Manoj B R" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Manoj B R</strong>
+                                <p>Assistant Professor, IIT Guwahati</p>
+                                <p>Topic: Integrated Sensing and Communication: Fundamentals and Recent Advances</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 9 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/BrijeshKumbhani.jpg" alt="Dr. Brijesh Kumbhani" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Brijesh Kumbhani</strong>
+                                <p>Assistant Professor, IIT Ropar</p>
+                                <p>Topic: Intelligent Reflecting Surfaces: Training in Multi-User Scenario</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Speaker 10 -->
+                    <li>
+                        <div class="speaker-info">
+                            <img src="img/SaradaPrasadGochhayat.jpg" alt="Dr. Sarada Prasad Gochhayat" class="speaker-photo">
+                            <div class="speaker-details">
+                                <strong>Dr. Sarada Prasad Gochhayat</strong>
+                                <p>Assistant Professor, IIT Jammu</p>
+                                <p>Topic: Performance Analysis of Fixed Broadband Wireless Access in mmWave Band in 5G</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+                    <!-- French Speakers -->
+                    <div class="col-md-6">
+                        <h4>French Speakers</h4>
+                        <ul class="speakers-list">
+                            <!-- Speaker 1 -->
+                            <li>
+                                <div class="speaker-info">
+                                    <img src="img/FrancoisBaccelli.png" alt="Dr. François Baccelli" class="speaker-photo">
+                                    <div class="speaker-details">
+                                        <strong>Dr. François Baccelli</strong>
+                                        <p>Inria, ENS</p>
+                                        <p>Topic: Intelligent Reflecting Surfaces (IRS), Non-Terrestrial Networks (NTN)</p>
+                                        <a href="https://www.di.ens.fr/~baccelli/" target="_blank">Personal Webpage</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Speaker 2 -->
+                            <li>
+                                <div class="speaker-info">
+                                    <img src="img/MaximeGuillaud.png" alt="Dr. Maxime Guillaud" class="speaker-photo">
+                                    <div class="speaker-details">
+                                        <strong>Dr. Maxime Guillaud</strong>
+                                        <p>Inria Lyon</p>
+                                        <p>Topic: Channel Charting - Self-Supervised Learning for Wireless Propagation</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Speaker 3 -->
+                            <li>
+                                <div class="speaker-info">
+                                    <img src="img/MalcomEgan.png" alt="Dr. Malcom Egan" class="speaker-photo">
+                                    <div class="speaker-details">
+                                        <strong>Dr. Malcom Egan</strong>
+                                        <p>Inria Lyon</p>
+                                        <p>Topic: Interference Models (with Heavy Tails)</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Speaker 4 -->
+                            <li>
+                                <div class="speaker-info">
+                                    <img src="img/MarceauCoupechoux.png" alt="Dr. Marceau Coupechoux" class="speaker-photo">
+                                    <div class="speaker-details">
+                                        <strong>Dr. Marceau Coupechoux</strong>
+                                        <p>Telecom Paris</p>
+                                        <p>Topic: Reinforcement Learning Approaches to URLLC Scheduling</p>
+                                    </div>
+                                </div>
+                            </li>
+                     
+                     <!-- Speaker 5 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/AlineCarneiroViana.jpg" alt="Dr. Aline Carneiro Viana" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Aline Carneiro Viana</strong>
+                                 <p> Inria</p>
+                                 <p>Topic : Visit of Team TRiBE, Inria Saclay</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 6 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/AmiraAlloum.jpg" alt="Dr. Amira Alloum" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Amira Alloum</strong>
+                                 <p>Qualcomm</p>
+                                 <p>Topic: XR Evolution to the Metaverse</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 7 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/VinodKumar.jpg" alt="Dr. Vinod Kumar" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Vinod Kumar</strong>
+                                 <p>WWRF</p>
+                                 <p>Topic: 6G Vision and Standardization on ITU</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 8 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/PhilippeJacquet.jpg" alt="Dr. Philippe Jacquet" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Philippe Jacquet</strong>
+                                 <p>Inria</p>
+                                 <p>Topic: The Energy Differentiated Field Theorem: A Powerful Tool to Quantify Wireless Capacity Limits</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 9 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/CedricAdjih.jpg" alt="Dr. Cédric Adjih" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Cédric Adjih</strong>
+                                 <p>Inria</p>
+                                 <p>Topic: On Modern Random Access and Deep Reinforcement Learning</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 10 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/NareshModina.jpg" alt="Dr. Naresh Modina" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Naresh Modina</strong>
+                                 <p>CNAM</p>
+                                 <p>Topic: Autonomous Reconfiguration-intent Management: A DRL-based Framework for xG Systems</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 11 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/PhilippeMartins.jpg" alt="Dr. Philippe Martins" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Philippe Martins</strong>
+                                 <p>Telecom Paris</p>
+                                 <p>Topic: Experimental Testbed</p>
+                             </div>
+                         </div>
+                     </li>
+                     <!-- Speaker 12 -->
+                     <li>
+                         <div class="speaker-info">
+                             <img src="img/JeanMarieGorce.png" alt="Dr. Jean-Marie Gorce" class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong>Dr. Jean-Marie Gorce</strong>
+                                 <p>Inria Lyon, INSA Lyon</p>
+                                 <p>topic: Learning-based solutions to constrain channel state information requirements (30+ min)</p>
+                             </div>
+                         </div>
+                     </li>		     
+                 </ul>
+             </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+</section>
+    </div>
+
+        <footer class="text-center mt-5">
+        <p>© 2024 6G Wireless Networks Workshop | Funded by CEFIPRA</p>
+    </footer>

@@ -42,7 +42,7 @@ MENU_CONTENT_FOOTER = '''
 
 FOOTER = '''
 <div id="footer">
-  <p><span>&copy; 2022 <a href="#">Inria, IIT(BHU) Varanasi, IIT Guwahati</a></span><br />
+  <p><span>&copy; 2022-2023 <a href="#">Inria, IIT(BHU) Varanasi, IIT Guwahati</a></span><br />
     <!-- img src="img/logo-inria.png" height="40" width="100" class="center" alt="Example content image" / -->
     <span style="font-size: 10%;"> <a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a> | Modified by <a href="http://Jasoncole.ca">Jason Cole</a> | Modified by <a href="http://fr.viadeo.com/fr/profile/hana.baccouch">Hana Baccouch</a> and C. Adjih </span></p>
 </div>
